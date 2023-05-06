@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: 'Maler', sans-serif;
+	font-size: 1.4rem;
+	color: #fff;
+}
+
+.back {
+    background-image: url("/assets/back2.svg");
+    width: 100%;
+    height: 300vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.container {
+	max-width: 120rem;
+	margin-inline: auto;
+	padding-inline: 1.5rem;
+}
+
+/* navbar */
+
+.primary-header {
+    background-color: #FDEFCA;
+    color: #9D9076;
+    position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo {
+    height: 8.2rem;
+}
+
+.nav-btns {
+    display: flex;
+    gap: 4.3rem;
+}
+
+/* texts */
+
+.main-text {
+    color: #765728;
+    font-size: 4rem;
+}
+
+/* first content */
+
+.first-content {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.beeeeee {
+    width: 100%;
+    height: 70vh;
+}
+
+/* second-content */
+
+.second-content {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.f-block {
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-left: 10rem;
+    width: 40%;
+}
+
+.list {
+    color: #9D9076;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    font-size: 3rem;
+}
+
+.s-block {
+    width: 60%;
+    height: 100vh;
+}
+
+.eye {
+    width: 100%;
+    height: 100%;
+}
+
+/* third content */
+
+.third-content {
+    padding-top: 12rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block-for-wind {
+    width: 70%;
+    height: 80vh;
+    background-image: url("/assets/wing.png");
+    background-position: center center;
+    background-size: cover;
+
+}
+
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-img {
+    width: 17rem;
+    height: 4rem;
+}

@@ -1,4 +1,7 @@
-function active() {
-    document.querySelector(".flower-f").classList.add("flower-active");
-    document.querySelector(".flower-s").classList.add("flower-s-active")
+function activeFlowers() {
+    const scrollPosition = window.scrollY > 420;
+    document.querySelector(".flower-f").classList.toggle("flower-active", scrollPosition);
+    document.querySelector(".flower-s").classList.toggle("flower-s-active", scrollPosition);
 }
+
+window.addEventListener('scroll', activeFlowers)
