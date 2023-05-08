@@ -90,7 +90,6 @@ a {
 }
 
 .f-block {
-    padding-top: 12rem;
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -103,7 +102,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    font-size: 3rem;
+    font-size: 2.3rem;
 }
 
 .s-block {
@@ -119,7 +118,7 @@ a {
 /* third content */
 
 .third-content {
-    padding-top: 12rem;
+    padding-top: 9rem;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -127,12 +126,15 @@ a {
     justify-content: space-between;
 }
 .block-for-wind {
-    width: 70%;
-    height: 80vh;
-    background-image: url("/assets/wing.png");
+    width: 90%;
+    height: 60vh;
+    background-image: url("/assets/Group\ 3\ \(1\).png");
     background-position: center center;
     background-size: cover;
 
+}
+.for-padding {
+    padding-left: 4rem;
 }
 
 
@@ -143,9 +145,18 @@ a {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    padding: 2rem;
 }
 
 .footer-img {
     width: 17rem;
     height: 4rem;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: #2D2A24;
 }

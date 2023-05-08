@@ -13,7 +13,7 @@ body {
 }
 
 .back {
-    background-image: url("/assets/back3.svg");
+    background-image: url("/assets/back5.svg");
     width: 100%;
     height: 300vh;
     background-position: center center;
@@ -59,6 +59,48 @@ a {
     gap: 4.3rem;
 }
 
+/* first-content */
+
+.first-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    padding-top: 10rem;
+}
+
+.list {
+    font-size: 3rem;
+    color: #9D9076;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.f-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    width: 35%;
+}
+
+.pass-img {
+    width: 30%;
+}
+
+.flowers-block {
+    height: 80vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.flower {
+    width: 50rem;
+    height: 70rem;
+    transform: translateX(-21rem);
+}
+
 /* texts */
 
 .main-text {
@@ -66,115 +108,18 @@ a {
     font-size: 4rem;
 }
 
-/* first-content */
-
-.first-content {
-    padding-left: 4rem;
-    padding-top: 10rem;
-    width: 100%;
-    height: 100vh;
+.bold {
+    color: #765728;
 }
-
-.first-image {
-    width: 85%;
-    height: 80vh;
-}
-
-/* second */
 
 .second-content {
-    width: 100%;
-    height: 100vh;
-}
-
-.matka {
-    width: 100%;
-    height: 100vh;
-}
-
-/* third */
-
-.cards {
     display: flex;
-}
-
-.third-content {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     width: 100%;
     height: 100vh;
 }
 
-.f-block {
-    margin-left: 10rem;
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-    padding: 1rem;
-}
-
-.s-block {
-    padding-top: 10rem;
-    display: flex;
-    gap: 7rem;
-    width: 50%;
-    height: 100%;
-}
-
-
-
-.list {
-    margin-left: 4rem;
-    color: #9D9076;
-    display: flex;
-    flex-direction: column;
-    gap: 7rem;
-    font-size: 2.2rem;
-}
-
-.content-block {
-    display: flex;
-    flex-direction: column;
-    gap: 10rem;
-}
-
-.card {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.lineyka {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 2rem;
-    width: 13rem;
-    border-left: 3px solid #9D9076;
-    border-right: 3px solid #9D9076;
-}
-
-.lineyka-center {
-    width: 13rem;
-    height: 3px;
-    background-color: #9D9076;
-}
-
-.bee7-01 {
-    width: 20rem;
-    animation-name: move;
-	animation-duration: 5s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-}
-
-.bee7-01-2 {
-    width: 15rem;
+.bee {
     animation-name: move;
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
@@ -203,33 +148,75 @@ a {
     }
 }
 
-.title {
-    font-size: 2rem;
-    color: #765728;
-}
-
-.arrow {
-    height: 10vh;
+.second-first {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    gap: 10rem;
+    padding-top: 7rem;
+    padding-left: 4rem;
+}
+
+.second-second {
+    padding-top: 22rem;
+    width: 40%;
+    height: 100vh;
+}
+
+.second-third {
+    padding-top: 12rem;
+    width: 30%;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
     justify-content: center;
 }
 
-.other {
-    width: 15rem;
+.second-bee {
+    animation-name: move;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+    width: 30rem;
+    height: 30rem;
 }
 
-.other-2 {
-    width: 27rem;
-    height: 20rem;
+.third-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.last-img {
+    width: 85%;
+}
+
+.texts-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30vh;
+}
+
+.list-s {
+    width: 35%;
+    font-size: 3rem;
+    color: #765728;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 /* footer */
 
 .footer {
-    padding-right: 3rem;
     width: 100%;
-    height: 10vh;
     display: flex;
     justify-content: flex-end;
 }
@@ -237,4 +224,12 @@ a {
 .footer-img {
     width: 17rem;
     height: 4rem;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: #F4BE32;
 }
