@@ -13,7 +13,7 @@ body {
 }
 
 .back {
-    background-image: url("/assets/back2.svg");
+    background-image: url("/beePROJECT/assets/back2.svg");
     width: 100%;
     height: 300vh;
     background-position: center center;
@@ -128,7 +128,7 @@ a {
 .block-for-wind {
     width: 90%;
     height: 60vh;
-    background-image: url("/beePROJECT/assets/Group\ 3\ \(1\).png");
+    background-image: url("/beePROJECT/assets/Group.png");
     background-position: center center;
     background-size: cover;
 
