@@ -12,6 +12,18 @@ body {
 	color: #fff;
 }
 
+.title_main {
+    margin-left: 3rem;
+    margin-top: 10rem;
+    color: #765728;
+    font-size: 5rem;
+}
+
+.secondary_text {
+    color: #9D9076;
+    margin-left: 3rem;
+}
+
 .back {
     background-image: url("/beePROJECT/assets/back3.svg");
     width: 100%;
