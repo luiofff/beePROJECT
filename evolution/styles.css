@@ -10,6 +10,9 @@ body {
 	font-family: 'Maler', sans-serif;
 	font-size: 1.4rem;
 	color: #fff;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("/assets/back3.svg");
 }
 
 .title_main {
