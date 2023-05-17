@@ -128,7 +128,6 @@ a {
 .block-for-wind {
     width: 1213px;
     height: 640px;
-    background-image: url("/beePROJECT/assets/Group\ 3\ \(1\).png");
     background-position: center center;
     background-size: cover;
 
@@ -137,6 +136,10 @@ a {
     padding-left: 4rem;
 }
 
+.swdw {
+    position: absolute;
+    margin-top: 270rem;
+}
 
 
 /* footer */
