@@ -236,6 +236,10 @@ a {
 
 .card_golubika {
     margin-top: 5vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .other-2 {
