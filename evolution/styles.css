@@ -12,7 +12,7 @@ body {
 	color: #fff;
     background-position: center center;
     background-size: cover;
-    background-image: url("beePROJECT/assets/back3.svg");
+    background-image: url("/beePROJECT/assets/back3.svg");
 }
 
 .title_main {
