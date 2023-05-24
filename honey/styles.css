@@ -219,6 +219,11 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
+}
+
+.footer-img2 {
+    height: 4rem;
 }
 
 .footer-img {
