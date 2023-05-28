@@ -250,6 +250,7 @@ a {
 
 /* footer */
 .footer {
+    padding: 2rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
